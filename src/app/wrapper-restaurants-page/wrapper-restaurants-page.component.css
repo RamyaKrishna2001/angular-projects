@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #343a40;
+}
+
+/* GENERAL STYLES */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(252, 86, 100, 0.635);
+  padding: 16px;
+}
+
+h3 {
+  color: #fff;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 24px;
+  color: #fff;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #343a40;
+  font-weight: bold;
+  text-decoration: underline #343a40;
+}
+
+a:link:last-child {
+  margin-right: 0;
+}
+
+.addtocart {
+  display: inline-block;
+  margin-right: 18px;
+  color: #fff;
+  cursor: pointer;
+}

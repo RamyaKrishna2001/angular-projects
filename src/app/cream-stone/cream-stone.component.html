@@ -1,0 +1,33 @@
+<div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col1">
+        <div class="card1" *ngFor="let iceCream of creamStoneList">
+          <img
+            src="{{ iceCream.imageUrl }}"
+            class="card-img-top1"
+            alt="The image is not available"
+          />
+          <div class="card-body1">
+            <p class="card-title">
+
+              {{ iceCream.name }}
+            </p>
+            <div class="price-ratings">
+              <strong class="card-text">
+                {{ iceCream.price }}
+              </strong>
+              <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span>{{ iceCream.rating }}</span>
+              </div>
+            </div>
+            <div>
+              <button class="add-to-cart">Add To Cart</button>
+              <button class="order">Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
